@@ -33,8 +33,9 @@ struct ContentView: View {
                             .position(x:190, y:-140)
                         HStack {
                             Text("More Information:")
-                                .position(x:70,y:-170)
+                                .position(x:70,y:-180)
                             Link("\(fish.name)", destination: URL(string:  "https://www.fishwatch.gov\(fish.path)")!)
+                                .position(x:30,y:-180)
                         }
                     }
                 } label: {
